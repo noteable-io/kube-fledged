@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  kubefledged:
+  - apiVersion: v2
+    appVersion: v0.7.1
+    created: "2021-03-01T18:41:01.576049474-07:00"
+    description: A Helm chart for Kubernetes
+    digest: 0de4423a18c1fcfbdcdc25186dd84b515a19658b2a8e89c7fcabe853470b1c8c
+    name: kubefledged
+    type: application
+    urls:
+    - https://github.com/noteable-io/kube-fledged/releases/download/kubefledged-v0.7.1/kubefledged-v0.7.1.tgz
+    version: v0.7.1
+generated: "2021-03-01T18:41:01.576055926-07:00"
