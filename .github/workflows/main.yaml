@@ -1,7 +1,7 @@
 # Builds and tests the geas frontend
 name: Kube Fledged Helm Chart Build
 
-# Trigger the workflow on all pull requests and only pushes to the main branch
+# Trigger the workflow only on pushes to the main branch
 # yamllint disable-line rule:truthy
 on:
   push:
