@@ -1,5 +1,16 @@
 apiVersion: v1
 entries:
+  kube-fledged:
+  - apiVersion: v2
+    appVersion: v0.8.0
+    created: "2021-07-09T19:08:34.291581682-06:00"
+    description: A Helm chart for deploying kube-fledged
+    digest: b13f400d4c5a9c2645494367d15e67f7a35fff4d72350b997a8d72ab649b2d56
+    name: kube-fledged
+    type: application
+    urls:
+    - https://github.com/noteable-io/kube-fledged/releases/download/kube-fledged-v0.8.1/kube-fledged-v0.8.1.tgz
+    version: v0.8.1
   kubefledged:
   - apiVersion: v2
     appVersion: v0.7.1
@@ -21,4 +32,4 @@ entries:
     urls:
     - https://github.com/noteable-io/kube-fledged/releases/download/kubefledged-v0.7.1/kubefledged-v0.7.1.tgz
     version: v0.7.1
-generated: "2021-03-04T22:07:25.30122187-07:00"
+generated: "2021-07-09T19:08:34.291593374-06:00"
